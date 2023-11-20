@@ -12,7 +12,7 @@
 </head>
 
 <body class="container-fluid">
-  <div id="rodape">
+  <div>
 
   <div class="conteudo">
 

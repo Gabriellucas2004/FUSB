@@ -13,8 +13,8 @@
     <title>FUSB</title>
 </head>
 
-<body>
-    <div id="menu">
+<body class="container-fluid">
+    <div style="width: 100%; height: 100px;" >
         <nav class="dp-menu">
             <ul>
                 <li>
@@ -24,7 +24,7 @@
                 </li>
                 <li>
                     <a href="#">PRÓ-REITORIAS</a>
-                    <ul>
+                    <ul class="">
                         <li><a href="#">PROPA </a></li>
                         <li><a href="#"> PROGEAC </a></li>
                         <li><a href="#"> PROPPG</a></li>
@@ -36,7 +36,7 @@
                 </li>
                 <li>
                     <a href="#">ENSINO</a>
-                    <ul>
+                    <ul class="">
                         <li><a href="#">GRADUAÇÃO</a></li>
                         <li><a href="#">PÓS-GRADUAÇÃO</a></li>
                     </ul>
@@ -82,7 +82,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="formIncri.php">
+                    <a href="formInscri.php">
                         PROCESSO SELETIVO 2024
                     </a>
                 </li>
