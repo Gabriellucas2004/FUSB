@@ -1,0 +1,84 @@
+#rodape{
+  width: 100%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+}
+
+
+.img-fluid{
+    max-width: 100%; 
+    height: auto; 
+    padding: 8px;
+  }
+  
+  p{
+    font-size: clamp(1.75em, 1em+3vw, 2.5em);
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+    padding: 8px;
+  }
+  
+  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding: 8px;
+    background: rgb(95, 22, 163);
+    
+  }
+  
+
+  
+
+  .rodape{
+    background-color: rgb(95, 22, 163);
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 14px;
+    font-family: helvetica;
+  }
+  .rodape a{
+    text-decoration: none;
+    color: white;
+  }
+  .rodape p{
+    text-decoration: none;
+    color: white;
+    margin-bottom: 5px;
+  }
+  .rodape-div{
+    display: flex;
+    flex-wrap: wrap;
+    width:100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+  }
+  .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+    display: flex;
+    width: calc(100% / 4 );
+    padding: 10px;
+  }
+  .rodape span{
+    font-size: 20px;
+    color: #B9AACB;
+  }
+  .rodape-direitos{
+    width: 100% ;
+    background-color: #A8AF8D;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .rodape-div-1, .rodape-div-2, .rodape-div-3, .rodape-div-4{
+        width: calc(50% - 20px);
+        padding: 10px;
+    }
+    .rodape-div{
+        padding: 60px 0px 40px 0px;
+    }
+  }
